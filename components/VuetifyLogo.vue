@@ -2,7 +2,7 @@
   <div class="">
     <img
       class="mew__image"
-      alt="Mew Image"
+      alt="Mew image"
       :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${src}.png`"
     />
   </div>
@@ -10,10 +10,10 @@
 
 <script>
 export default {
-  name: "Image",
   props: {
     src: {
-      type: String,
+      type: Number,
+      // required: true,
     },
   },
 };
